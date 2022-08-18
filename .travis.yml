@@ -3,13 +3,13 @@ language: ruby
 dist: trusty
 before_install:
   - gem update --system
-  - gem install bundler
+  - gem install bundler:1.17.3
   - gem install jbundler
 rvm:
   - jruby-9.1.9.0
 jdk:
   - oraclejdk8
   - openjdk7
-script: bundle exec jbundle install && bundle exec rake war && bundle exec rake jardist
+script: bundle _1.17.3_ exec jbundle install && bundle exec rake war && bundle exec rake jardist
 notifications:
   email: false
