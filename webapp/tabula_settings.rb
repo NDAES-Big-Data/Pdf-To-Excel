@@ -5,8 +5,8 @@ module TabulaSettings
 
   ########## Defaults ##########
   DEFAULT_DEBUG = false
-  DEFAULT_DISABLE_VERSION_CHECK = true
-  DEFAULT_DISABLE_NOTIFICATIONS = true
+  DEFAULT_DISABLE_VERSION_CHECK = false
+  DEFAULT_DISABLE_NOTIFICATIONS = false
 
   ########## Helpers ##########
   def self.getDataDir

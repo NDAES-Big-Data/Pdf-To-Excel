@@ -78,7 +78,7 @@
         <classPath mainClass="WarMain">
           <cp>tabula.jar</cp>
         </classPath>
-        <jre minVersion="1.6.0" jdkPreference="preferJre" initialHeapSize="256" maxHeapSize="1024">
+        <jre minVersion="1.6.0" jdkPreference="preferJre" initialHeapSize="256" maxHeapSize="4096">
           <opt>-Dfile.encoding=utf-8</opt>
           <opt>-Dwarbler.port=8080</opt>
           <opt>-Dtabula.openBrowser=true</opt>

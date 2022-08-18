@@ -15,7 +15,6 @@ platform :jruby do
     gem "warbler", "~> 2.0.5"
     gem "jruby-jars", "9.2.0.0"
     gem "bootstrap-sass", ">= 3.4.1"
-    # gem 'sassc', '~> 2.1.0'
     gem "compass"
   end
 end
